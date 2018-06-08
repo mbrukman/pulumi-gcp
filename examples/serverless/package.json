@@ -1,5 +1,5 @@
 {
-    "name": "minimal",
+    "name": "serverless",
     "version": "0.1",
     "main": "bin/index.js",
     "typings": "bin/index.d.ts",
@@ -10,9 +10,11 @@
         "@pulumi/pulumi": "^0.12.3"
     },
     "devDependencies": {
+        "@types/node": "^8.0.26",
         "typescript": "^2.5.3"
     },
     "peerDependencies": {
         "@pulumi/gcp": "latest"
-    }
+    },
+    "license": "MIT"
 }
